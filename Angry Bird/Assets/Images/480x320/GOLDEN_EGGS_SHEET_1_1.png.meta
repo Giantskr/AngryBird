@@ -1,0 +1,1234 @@
+fileFormatVersion: 2
+guid: c913733900f9afb41bcde85962d9297b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GOLDEN_EGGS_SHEET_1_1_0
+    21300002: GOLDEN_EGGS_SHEET_1_1_1
+    21300004: GOLDEN_EGGS_SHEET_1_1_2
+    21300006: Y
+    21300008: GOLDEN_EGGS_SHEET_1_1_4
+    21300010: GOLDEN_EGGS_SHEET_1_1_5
+    21300012: GOLDEN_EGGS_SHEET_1_1_6
+    21300014: GOLDEN_EGGS_SHEET_1_1_7
+    21300016: GOLDEN_EGGS_SHEET_1_1_8
+    21300018: GOLDEN_EGGS_SHEET_1_1_9
+    21300020: GOLDEN_EGGS_SHEET_1_1_10
+    21300022: GOLDEN_EGGS_SHEET_1_1_11
+    21300024: GOLDEN_EGGS_SHEET_1_1_12
+    21300026: GOLDEN_EGGS_SHEET_1_1_13
+    21300028: GOLDEN_EGGS_SHEET_1_1_14
+    21300030: GOLDEN_EGGS_SHEET_1_1_15
+    21300032: GOLDEN_EGGS_SHEET_1_1_16
+    21300034: GOLDEN_EGGS_SHEET_1_1_17
+    21300036: GOLDEN_EGGS_SHEET_1_1_18
+    21300038: GOLDEN_EGGS_SHEET_1_1_19
+    21300040: GOLDEN_EGGS_SHEET_1_1_20
+    21300042: GOLDEN_EGGS_SHEET_1_1_21
+    21300044: GOLDEN_EGGS_SHEET_1_1_22
+    21300046: GOLDEN_EGGS_SHEET_1_1_23
+    21300048: GOLDEN_EGGS_SHEET_1_1_24
+    21300050: GOLDEN_EGGS_SHEET_1_1_25
+    21300052: GOLDEN_EGGS_SHEET_1_1_26
+    21300054: GOLDEN_EGGS_SHEET_1_1_27
+    21300056: GOLDEN_EGGS_SHEET_1_1_28
+    21300058: GOLDEN_EGGS_SHEET_1_1_29
+    21300060: GOLDEN_EGGS_SHEET_1_1_30
+    21300062: GOLDEN_EGGS_SHEET_1_1_31
+    21300064: GOLDEN_EGGS_SHEET_1_1_32
+    21300066: GOLDEN_EGGS_SHEET_1_1_33
+    21300068: GOLDEN_EGGS_SHEET_1_1_34
+    21300070: GOLDEN_EGGS_SHEET_1_1_35
+    21300072: GOLDEN_EGGS_SHEET_1_1_36
+    21300074: GOLDEN_EGGS_SHEET_1_1_37
+    21300076: GOLDEN_EGGS_SHEET_1_1_38
+    21300078: GOLDEN_EGGS_SHEET_1_1_39
+    21300080: GOLDEN_EGGS_SHEET_1_1_40
+    21300082: GOLDEN_EGGS_SHEET_1_1_41
+    21300084: GOLDEN_EGGS_SHEET_1_1_42
+    21300086: GOLDEN_EGGS_SHEET_1_1_43
+    21300088: GOLDEN_EGGS_SHEET_1_1_44
+    21300090: GOLDEN_EGGS_SHEET_1_1_45
+    21300092: GOLDEN_EGGS_SHEET_1_1_46
+    21300094: GOLDEN_EGGS_SHEET_1_1_47
+    21300096: GOLDEN_EGGS_SHEET_1_1_48
+    21300098: GOLDEN_EGGS_SHEET_1_1_49
+    21300100: GOLDEN_EGGS_SHEET_1_1_50
+    21300102: GOLDEN_EGGS_SHEET_1_1_51
+    21300104: GOLDEN_EGGS_SHEET_1_1_52
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 242
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3020560295b7e48a1d26b0d72bcc86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 293
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928009347ca9fb42a139ee8000c0359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 390
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f12bde1e422a0b4da2a363e46835160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Y
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 340
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c189ca8b7d1f764683e2c046cc35a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 361
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213bdddfd68bf0c48acb26ced2e30f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 334
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4917dc52e6106954d9f1f025ad8b5807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 305
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71910a609469ad446bb0b09837e788ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 299
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0dedeed91f60547b2ff00f47a36454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 228
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35db54880a780a94fbe750122378b103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 239
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb384b9b7193d5e4e828fb1838189dbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 239
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a47f957cdb0f642b432e97afbb36d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 245
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2264b00b744d34498e3d1ce638da606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 61
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63245c0e27b8dbf48b1ac18b4d596b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 68
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb79a8689f6676409683d61e1be756a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 147
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae3a3349cfa8684a9b59309cc38c911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 154
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5025b897cfb9b4e8089b4044d69a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfa1364431dba4d859ae115e34b840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 189
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb21269e740e684088d8ffaf698267b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_18
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 191
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e53fd202385a4da5326dcf14a6b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 212
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2889b130a8ee3d4a9d65cad05534861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 179
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e193b8dc05ba474da55cfcfae97d937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 147
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f87b7d1b0d09c4d8697b23f2aa55ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 141
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a42b1b4c6fa404980bd88b834351cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_23
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 182
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d13ed219ed9b114c93c5750597ab3a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 109
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763bf94e23ac8ac46a8327d5057dd7fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 112
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8612a7ecaf11aaf4681a193da711db5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_26
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 146
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f914b3fa77d7448bc7109bd7dab7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5629344c5f71b85419c90ad28837a51e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 107
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24955ebe8b6056242a15876f30ceb921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_29
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 102
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf38a2fef5801d45987bbe9bae1f7fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 102
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef99cbbc52529b841a27f594c2b46283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 109
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7e45e1eb210a147a91953264e30963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_32
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 84
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1935ee1e576f0645b0b540528b4bcbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 50
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1af5bd6033397943b1b3c0c0c313823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_34
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 67
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcee9ada5d189d4492039bfe263c04d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 72
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010cd2765563dd478565b85b0d3fe44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_36
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 72
+        width: 6
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaac2818db3eb741ae4ee9ec7fb2557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_37
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 64
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee5476d87919f4fbeed8c0611bbd45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_38
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 66
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29feef42ce37dbd4c817ec5a3a65c7dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9781b5c5fab9740949f334c8c2c396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 9
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e34ff104f7cd7148affee36f5be4e9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 31
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f709e22033c1ffe4ba9feaf42ba7683c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 32
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbfd9c65331f7844b72e90227a6d42c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_43
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 37
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c97e8407e6f01646938bef153807c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 54
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9c36373ed14de459efc8c38110eff2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3477734f334dd7744bc137d070c90bfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 4
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb731a748ea19a47ab75b614271e6ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a938f4493fb1b4380eda9532854c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_48
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 5
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a689a2b9263364f98ac62073c42f1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_49
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d784fc3a40f1fc488478499a9124cfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 28
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88455fcc9ce720047a4310e9fa542908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c85eb5275b604646905d56bf139d561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOLDEN_EGGS_SHEET_1_1_52
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87230e10ea841a54ca031593166f2ba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
