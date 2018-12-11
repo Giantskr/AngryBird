@@ -6,6 +6,7 @@ using UnityEngine;
 public class Pig : MonoBehaviour
 {
     public int pigHeath = 100;
+    public GameObject MainCamera;
     public GameObject smoke;
     public GameObject score;
     // Start is called before the first frame update
@@ -19,12 +20,13 @@ public class Pig : MonoBehaviour
     {
         if (pigHeath <= 1)
         {
+            MainCamera.GetComponent<GameManager>().PigAmount -= 1;
             ScoreText.score += 5000;
             Instantiate(smoke, transform.position, Quaternion.identity);
             GameObject go = Instantiate(score, transform.position+new Vector3(0,1,0), Quaternion.identity);
             GameManager.gameState = 2;
             //Debug.Log(GameManager.gameState);
-            Destroy(this.gameObject);
+            Destroy(this.gameObject);   
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

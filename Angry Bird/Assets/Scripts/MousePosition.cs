@@ -31,7 +31,7 @@ public class MousePosition : MonoBehaviour
         }
        
         deltaX = mousePositionInWorld.x - startPositionx;
-        if (cameraX > -5.5&&cameraX<15.5)
+        if (cameraX > -5.5&&cameraX<17)
         {
 
            // Debug.Log(cameraX);
@@ -51,9 +51,9 @@ public class MousePosition : MonoBehaviour
     {
         MouseFollow();
         vectory *= 0.95f;
-        if ((cameraX < -5.5f&&vectory>0)|| (cameraX > 15f && vectory < 0))
+        if ((cameraX < -5.5f&&vectory>0)|| (cameraX > 16.5f && vectory < 0))
         {
-            if ((cameraX < -6.5f && vectory > 0) || (cameraX > +17f && vectory < 0))
+            if ((cameraX < -6.5f && vectory > 0) || (cameraX > +17.5 && vectory < 0))
             {
                 vectory = 0;
             }

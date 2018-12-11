@@ -60,11 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BestScore.cs" />
     <Compile Include="Assets\Scripts\BirdMove.cs" />
+    <Compile Include="Assets\Scripts\BlueBird.cs" />
     <Compile Include="Assets\Scripts\CamerZoom.cs" />
     <Compile Include="Assets\Scripts\Continue.cs" />
+    <Compile Include="Assets\Scripts\CreatStartBirds.cs" />
     <Compile Include="Assets\Scripts\DestroyScoreAnimation.cs" />
     <Compile Include="Assets\Scripts\EnterLevels.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LineInFoxer.cs" />
     <Compile Include="Assets\Scripts\LineInFoxerFront.cs" />
@@ -74,6 +78,8 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Pig.cs" />
     <Compile Include="Assets\Scripts\ScoreText.cs" />
+    <Compile Include="Assets\Scripts\StartBird.cs" />
+    <Compile Include="Assets\Scripts\Volume.cs" />
     <Compile Include="Assets\Scripts\WoodHealth.cs" />
     <Compile Include="Assets\Scripts\Yell.cs" />
     <Compile Include="Assets\Scripts\YellowBird.cs" />

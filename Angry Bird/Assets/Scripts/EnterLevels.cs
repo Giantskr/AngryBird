@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class EnterLevels : MonoBehaviour
 {
     public int levels;
-    public 
     // Start is called before the first frame update
     void Start()
     {

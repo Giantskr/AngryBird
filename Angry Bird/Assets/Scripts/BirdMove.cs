@@ -14,16 +14,18 @@ public class BirdMove : MonoBehaviour
     public GameObject Holder;
     public GameObject StartPosition;
     public GameObject clud;
+    public GameObject MainCamera;
 
     protected Animator animator;
 
-    private AudioSource audioSource;
+    protected AudioSource audioSource;
     public AudioClip yell1;
     public AudioClip yell2;
     public AudioClip fly;
     public AudioClip collisionSound;
     public AudioClip shot;
     public AudioClip slingshot;
+    public AudioClip Destroyed;
 
     protected bool isDrag=false;
     Vector3 mousePositionInWorld;//将点击屏幕的屏幕坐标转换为世界坐标
@@ -42,13 +44,17 @@ public class BirdMove : MonoBehaviour
     public int between;
     protected bool getReady;
     protected bool Rolled=false;
+    protected bool isDestroyAudio = false;
 
     // Start is called before the first frame update
     void Start()
     {
+       // Time.timeScale = 0.3f;
         animator = BirdSon.GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         Holder.transform.position = new Vector3(-4.589f, -1.48f, 0);
+       // Bird.GetComponent<TrailRenderer>().enabled = false;
+
     }
     public void DrawLineAndBirdOnTheFoxer()
     {
@@ -119,7 +125,9 @@ public class BirdMove : MonoBehaviour
             Holder.transform.eulerAngles = new Vector3(0, 0, 78);
             GetComponent<LineRenderer>().enabled = false;
             GameManager.states -= 1;
+            state -= 1;
             MousePosition.vectory = -1;
+            GetComponent<TrailRenderer>().enabled = true;
         }
     }
     private void OnMouseUp()
@@ -136,9 +144,8 @@ public class BirdMove : MonoBehaviour
                 animator.SetTrigger("Rolling");
                 Rolled = true;
             }
-            transform.position = Vector3.MoveTowards(BirdSon.transform.position, StartPosition.transform.position, 5 * Time.deltaTime);
-
-            if (BirdSon.transform.position.x <= -4.75f)
+           transform.position = Vector3.MoveTowards(/*BirdSon.*/transform.position, StartPosition.transform.position,6* Time.deltaTime);
+            if (BirdSon.transform.position.x <= -4.5f)
                 getReady = true;
         }
         betweenTwoAni += 1;
@@ -179,16 +186,35 @@ public class BirdMove : MonoBehaviour
     {
         EveryFrame();
     }
-
+    void DestroyAudio()
+    {
+        MainCamera.GetComponent<GameManager>().BirdAmount -= 1; //判定鸟是否全部用完中 减少鸟的数量函数
+        audioSource.PlayOneShot(Destroyed);
+        particleSystem.Play();
+        Instantiate(clud);
+        clud.transform.position = Bird.transform.position;
+      //  clud.transform.localScale = new Vector3((float)damage * 0.2f, (float)damage * 0.2f, 1);
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
-        BirdSon.GetComponent<Animator>().SetTrigger("Collision");
+        
         double damage = Math.Sqrt(collision.relativeVelocity.x * collision.relativeVelocity.x + collision.relativeVelocity.y * collision.relativeVelocity.y);
         if (damage > 3)
         {
-            Destroy(gameObject,5);
+            Instantiate(clud, BirdSon.transform.position, Quaternion.identity);
+            //clud.transform.position = BirdSon.transform.position;Debug.Log(BirdSon.transform.position);
+            clud.transform.localScale = new Vector3((float)damage * 0.2f, (float)damage * 0.2f, 1);
+
+            BirdSon.GetComponent<Animator>().SetTrigger("Collision");
+            if (!isDestroyAudio)//避免在最初撞击后的0.3秒内出现第二次撞击造成 DestroyAudio 重复执行
+            {
+                Invoke("DestroyAudio", 7f);
+                isDestroyAudio = true;
+            }
+            
+            Destroy(gameObject,7.3f);
             particleSystem.Play();
             if (damage <= 30)
             {
@@ -199,9 +225,7 @@ public class BirdMove : MonoBehaviour
                 
                 ScoreText.score += 50;
             }
-            Instantiate(clud);
-            clud.transform.position = Bird.transform.position;
-            clud.transform.localScale = new Vector3((float)damage*0.2f, (float)damage*0.2f, 1);
+            
         }
        
     }
