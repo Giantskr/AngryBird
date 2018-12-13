@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Continue : MonoBehaviour
 {
+    //游戏继续实现
     // Start is called before the first frame update
     void Start()
     {

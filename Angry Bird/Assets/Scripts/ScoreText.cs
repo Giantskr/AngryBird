@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//场景UI的分数；跟之前的最高分实现差不多
 public class ScoreText : MonoBehaviour
 {
     public static int score ;

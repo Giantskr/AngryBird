@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 2474797681413349263}
   - component: {fileID: 2474797681413349260}
   - component: {fileID: 2474797681413349261}
-  - component: {fileID: 2474797681413349258}
   - component: {fileID: 2474797681413349259}
   - component: {fileID: 2474797681413349256}
   - component: {fileID: 2474797681413349257}
   - component: {fileID: 2474797681413349254}
+  - component: {fileID: 5225979228859043127}
   m_Layer: 8
   m_Name: RedBird
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2474797681413349255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.49, y: -2.65, z: -0.1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2474797682107994753}
@@ -79,6 +79,13 @@ MonoBehaviour:
   StartPosition: {fileID: 0}
   clud: {fileID: 8164269386154123485, guid: c2705af0ff6a0c141b8c6ed967e09b7f, type: 3}
   MainCamera: {fileID: 0}
+  AliveScore: {fileID: 3825092816081598820}
+  Collision30: {fileID: 4170151670274430253, guid: 897b499a01de33f4f82c6685578fdff1,
+    type: 3}
+  Collision50: {fileID: 507500344477350177, guid: 744c9bfeb96669149a68d56838ab7dc6,
+    type: 3}
+  Collision100: {fileID: 7189583619584647485, guid: c99f75e05a9545841b8677c7422180d6,
+    type: 3}
   yell1: {fileID: 8300000, guid: 45e9fdb39d71ee94f9517e12b0cdd7cf, type: 3}
   yell2: {fileID: 8300000, guid: 6af55c3260207eb4da5cfdc658a55327, type: 3}
   fly: {fileID: 8300000, guid: 84985838a1ed556459088775d07888ff, type: 3}
@@ -88,22 +95,7 @@ MonoBehaviour:
   Destroyed: {fileID: 8300000, guid: a16305054c1010847afb6167d345d05d, type: 3}
   state: 1
   between: 200
---- !u!70 &2474797681413349258
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2474797681413349255}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.04, y: 0.04}
-  m_Size: {x: 0.42, y: 0.37}
-  m_Direction: 1
+  isAliveScore: 0
 --- !u!82 &2474797681413349259
 AudioSource:
   m_ObjectHideFlags: 0
@@ -294,7 +286,7 @@ LineRenderer:
       ctime5: 35466
       ctime6: 45489
       ctime7: 55705
-      atime0: 58018
+      atime0: 25636
       atime1: 65535
       atime2: 0
       atime3: 0
@@ -427,6 +419,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &5225979228859043127
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474797681413349255}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.49, y: -2.66}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.6653516, y: 2.7691567}
+      - {x: 3.5143254, y: 2.8307304}
+      - {x: 3.3460555, y: 2.7517238}
+      - {x: 3.2942128, y: 2.5703776}
+      - {x: 3.4271977, y: 2.440094}
+      - {x: 3.6288188, y: 2.446175}
+      - {x: 3.7405193, y: 2.6068656}
 --- !u!1 &2474797682107994876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5481,5 +5505,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3586910034094011334, guid: 0c5ff556599544a4695efec9c3dab686,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586910034094011334, guid: 0c5ff556599544a4695efec9c3dab686,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586910034094011334, guid: 0c5ff556599544a4695efec9c3dab686,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586910034094011334, guid: 0c5ff556599544a4695efec9c3dab686,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300092, guid: 2e20adee98ad6384dbce09e3dfb962fc,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c5ff556599544a4695efec9c3dab686, type: 3}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//退游戏脚本
 public class ExitGame : MonoBehaviour
 {
     // Start is called before the first frame update

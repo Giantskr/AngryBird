@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//记录最高分的脚本
 public class BestScore : MonoBehaviour
 {
     public static int bestScore;
     public Text Score;
     public GameObject NewScore;
-
     public GameObject OneStar;
     public GameObject TwoStar;
     public GameObject ThreeStar;
-
+    //同时控制星星数量
     public int Level;
+    //分别管理两个关卡的最高分
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +26,13 @@ public class BestScore : MonoBehaviour
         {
             bestScore = PlayerPrefs.GetInt("BestScore2", 0);
         }
+        //将最高分从库中读取    
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (bestScore < ScoreText.score)
+        if (bestScore < ScoreText.score)//判定是否获得新的最高分
         {
             bestScore = ScoreText.score;
             NewScore.SetActive(true);
@@ -44,7 +45,7 @@ public class BestScore : MonoBehaviour
                 PlayerPrefs.SetInt("BestScore2", bestScore);
             }
         }
-        if (Level == 1)
+        if (Level == 1)//结束UI里的最高分
         {
             Score.text = "BEST SCORE:" + "\n" + PlayerPrefs.GetInt("BestScore1", 0);
         }
@@ -52,7 +53,7 @@ public class BestScore : MonoBehaviour
         {
             Score.text = "BEST SCORE:" + "\n" + PlayerPrefs.GetInt("BestScore2", 0);
         }
-
+        //星星数量判定法则
         if (bestScore <= 5000)
         {
             OneStar.SetActive(true);

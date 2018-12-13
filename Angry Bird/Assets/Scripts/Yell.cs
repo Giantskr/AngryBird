@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//控制鸟叫的脚本
 public class Yell : MonoBehaviour
 {
     private AudioSource audioSource;
@@ -16,8 +16,8 @@ public class Yell : MonoBehaviour
     }
     public void Yelling()
     {
-        
-        switch(whichSound%3)
+        whichSound = Random.Range(0, 3);//随机叫声音效
+        switch (whichSound)
         {
             case 1:
                 audioSource.PlayOneShot(yell1);

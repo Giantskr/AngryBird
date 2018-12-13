@@ -127,7 +127,7 @@ MonoBehaviour:
   audioSource: {fileID: 4062843244258751331}
   damage: {fileID: 8300000, guid: 300e4f2df0a1dbb47a570e9557d49e9c, type: 3}
   destroy: {fileID: 8300000, guid: 49902a246a0f01f4d81a4491bfcbf7c6, type: 3}
-  woodHeath: 500
+  woodHeath: 1500
   hp100: {fileID: 21300000, guid: 727f0ac62c5578348a08d78cc5761d8e, type: 3}
   hp75: {fileID: 21300000, guid: d9be56f72857ca949be7066444ab6b28, type: 3}
   hp50: {fileID: 21300000, guid: fd8783346d889c34e9e96a449b2e2895, type: 3}
@@ -144,7 +144,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1

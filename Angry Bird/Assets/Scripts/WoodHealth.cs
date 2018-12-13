@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//长木头的实现，用的动画
 public class WoodHealth : MonoBehaviour
 {
     public ParticleSystem particleSystem;
@@ -53,7 +53,7 @@ public class WoodHealth : MonoBehaviour
             
         }
 
-        woodHeath = woodHeath-10*damagE ;
+        woodHeath = woodHeath-50*damagE ;
         // Debug.Log(woodHeath);
     }
 }

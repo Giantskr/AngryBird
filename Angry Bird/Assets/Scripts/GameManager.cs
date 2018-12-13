@@ -26,40 +26,54 @@ public class GameManager : MonoBehaviour
     {
         states = 0;
         gameState = 1;
-        BirdOne.GetComponent<BirdMove>().state = states;
+        BirdOne.GetComponent<BirdMove>().state = states;//控制各个鸟的状态：是否到弓上
         BirdTwo.GetComponent<BirdMove>().state =states+ 1;
         BirdThree.GetComponent<BirdMove>().state =states+ 2;
-        Time.timeScale = 1;
+        Time.timeScale = 1;//恢复因为上一场游戏结束而设置成的暂停
+        BlueBird.isDivid = false;     //恢复上一场可能的蓝鸟的已经分身
     }
-
+    void GameFailed()
+    {
+        EndUI.SetActive(true);
+        Defeat.SetActive(true);
+        Success.SetActive(false);
+        audioSource.PlayOneShot(GameFaild);
+        Time.timeScale = 0;
+    }
+    void GameSuccess()
+    {
+        EndUI.SetActive(true);
+        Success.SetActive(true);
+        audioSource.PlayOneShot(GameClear);
+        Time.timeScale = 0;
+    }
     // Update is called once per frame
     void Update()
     {
         if(BirdOne!=null)BirdOne.GetComponent<BirdMove>().state = states;
         if (BirdTwo != null) BirdTwo.GetComponent<BirdMove>().state = states + 1;
-        if (BirdThree != null) BirdThree.GetComponent<BirdMove>().state = states + 2;
-        if (hadOver == false && BirdAmount == 0)
+        if (BirdThree != null) BirdThree.GetComponent<BirdMove>().state = states + 2;//避免报错hhh
+        if (hadOver == false && BirdAmount == 0&&PigAmount!=0)//失败判定
         {
-            EndUI.SetActive(true);
-            Defeat.SetActive(true);
-            Success.SetActive(false);
-            audioSource.PlayOneShot(GameFaild);
-            hadOver = true;
-            Time.timeScale = 0;
+            Invoke("GameFailed", 3);
+            hadOver = true;            
         }
         if (gameState == 2)
         {
-            timeAfterOver += 1;
-            
+            if (PigAmount == 0)
+            {
+                timeAfterOver += 1;
+            }
            // Debug.Log(timeAfterOver);
            // Debug.Log(hadOver);
-            if (timeAfterOver > 200&&hadOver==false&&PigAmount==0)
+            if (timeAfterOver > 390&&hadOver==false&&PigAmount==0)//成功判定
             {
-                EndUI.SetActive(true);
-                Success.SetActive(true);
-                audioSource.PlayOneShot(GameClear);
-                hadOver = true;
-                Time.timeScale = 0;
+                if (BirdOne != null) BirdOne.GetComponent<BirdMove>().isAliveScore = 1;
+                if (BirdTwo != null) if (timeAfterOver >400) { BirdTwo.GetComponent<BirdMove>().isAliveScore = 1; }
+                if (BirdThree != null) if(timeAfterOver>410){ BirdThree.GetComponent<BirdMove>().isAliveScore = 1; hadOver = true; }
+                //回去学一下动态数组
+                
+                Invoke("GameSuccess", 3);
             }
            
         }

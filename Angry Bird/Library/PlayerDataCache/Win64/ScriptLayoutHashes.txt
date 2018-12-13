@@ -2,7 +2,9 @@ Win64
 PlayerPath?
 D:/AngryBird TEST/Angry Bird.exe
 SceneListBegin?
+Assets/Scenes/Start.unity
 Assets/Scenes/ChoseLevel.unity
+Assets/Scenes/Introduction.unity
 Assets/Scenes/LEVEL1.unity
 Assets/Scenes/LEVEL2.unity
 SceneListEnd?
@@ -23,6 +25,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+e2284a3dc697e371189fc75276c7579b Assembly-CSharp.dll:.BestScore
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -88,6 +91,8 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.EnterLevel1
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TitleAudio
 35b31bb516f6dd68fea34a3aa2526375 Assembly-CSharp.dll:.Pig
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -119,7 +124,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-2a33a62e92eb5b45691b61ffbee398d8 Assembly-CSharp.dll:.BirdMove
+21216565af6eda21351c09509986f080 Assembly-CSharp.dll:.BirdMove
 f49fa88962cc22d08517d34f176454b3 Assembly-CSharp.dll:.LineInFoxer
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -130,7 +135,7 @@ f49fa88962cc22d08517d34f176454b3 Assembly-CSharp.dll:.LineInFoxer
 9db4e262310f5600749267bb7058f37b Assembly-CSharp.dll:.CamerZoom
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
-2f1478cd3fe1e603059b8e7c58396f4a Assembly-CSharp.dll:.YellowBird
+b0749e78374528095fe5aad1ff10f7ba Assembly-CSharp.dll:.YellowBird
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -186,12 +191,12 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 eeba1524a4c88d8859418ce3853a86a3 Assembly-CSharp.dll:.GameManager
 f49fa88962cc22d08517d34f176454b3 Assembly-CSharp.dll:.LineInFoxerFront
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StartBird
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
-e0c9e8cf99b3741e4ab36719e890420f Assembly-CSharp.dll:.BlueBird
+cf28b1986fae0a479cb50d1381d1f0b7 Assembly-CSharp.dll:.BlueBird
 bbf9fda0baf7b4704b48f41d7a8be3c3 Assembly-CSharp.dll:.MidWood
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+d6f4567a75af0939acd14e35d9595e7b Assembly-CSharp.dll:.ChoseLevelStar
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.OnMouse
-e2284a3dc697e371189fc75276c7579b Assembly-CSharp.dll:.BestScore
+14c0b3b1da8c2632c7b035231e14f793 Assembly-CSharp.dll:.CursorChange

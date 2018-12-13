@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//UI计分板
 public class YourScore : MonoBehaviour
 {
     public GameObject OneStar;
@@ -24,15 +24,19 @@ public class YourScore : MonoBehaviour
     {
         score = ScoreText.score;
         m_MyText.text = "Your Score: " + "\r\n" + "\r\n" + score;
-        if (score <= 5000)
+        if (score == 0)
+        {
+
+        }
+        if (score>0&&score <= 25000)
         {
             OneStar.SetActive(true);
         }
-        if(5000<score&&score<=10000)
+        if(2500<score&&score<=30000)
         {
             TwoStar.SetActive(true);
         }
-        if (10000 < score )
+        if (30000 < score )
         {
             ThreeStar.SetActive(true);
         }

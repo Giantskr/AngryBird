@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3042937046033141347}
   - component: {fileID: 3042937046033141346}
-  - component: {fileID: 3042937046033141344}
   - component: {fileID: 3042937046033141373}
   m_Layer: 8
   m_Name: BIRD_RED
@@ -81,18 +80,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3042937046033141344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3042937046033141372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc3f31ecba161e84cb45da473ff0c070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &3042937046033141373
 Rigidbody2D:
   serializedVersion: 4

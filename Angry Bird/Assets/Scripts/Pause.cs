@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//游戏暂停
 public class Pause : MonoBehaviour
 {
     // Start is called before the first frame update

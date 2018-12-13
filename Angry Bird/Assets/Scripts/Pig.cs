@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//设置的比木头还简单的^(*￣(oo)￣)^
 public class Pig : MonoBehaviour
 {
     public int pigHeath = 100;
@@ -20,7 +20,7 @@ public class Pig : MonoBehaviour
     {
         if (pigHeath <= 1)
         {
-            MainCamera.GetComponent<GameManager>().PigAmount -= 1;
+            MainCamera.GetComponent<GameManager>().PigAmount -= 1;//判定猪的数量
             ScoreText.score += 5000;
             Instantiate(smoke, transform.position, Quaternion.identity);
             GameObject go = Instantiate(score, transform.position+new Vector3(0,1,0), Quaternion.identity);

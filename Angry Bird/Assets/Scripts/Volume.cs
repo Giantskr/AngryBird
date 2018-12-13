@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//场景中的音量开关
 public class Volume : MonoBehaviour
 {
     public bool isClick=false;
