@@ -9259,9 +9259,10 @@ MonoBehaviour:
   audioSource: {fileID: 1916974033}
   GameClear: {fileID: 8300000, guid: ee6624c927a04c14f85b8077dddbe133, type: 3}
   GameFaild: {fileID: 8300000, guid: bcbf40c10e333d3458c1da5356824e0d, type: 3}
-  BirdOne: {fileID: 1129975301}
-  BirdTwo: {fileID: 1033126801}
-  BirdThree: {fileID: 617461819}
+  BirdList:
+  - {fileID: 1129975301}
+  - {fileID: 1033126801}
+  - {fileID: 617461819}
   EndUI: {fileID: 314320599}
   Success: {fileID: 1444500265}
   Defeat: {fileID: 1190787142}

@@ -112,7 +112,15 @@ public class BirdMove : MonoBehaviour
                     }
                     else
                     {
-                        transform.position = StartPosition.transform.position + new Vector3(-0.4f, deltaY, -0.1f);
+                        if (deltaX > -0.4)
+                        {
+                            transform.position = StartPosition.transform.position + new Vector3(-0.4f, deltaY, -0.1f);
+                        }
+                        else
+                        {
+                            transform.position = new Vector3(mousePositionInWorld.x, mousePositionInWorld.y, -0.1f);
+                        }
+                        
                     }
                 }
                 else
@@ -125,7 +133,14 @@ public class BirdMove : MonoBehaviour
                         }
                         else
                         {
-                            transform.position = StartPosition.transform.position + new Vector3(0.4f, deltaY, -0.1f);
+                            if (deltaX < 0.4)
+                            {
+                                transform.position = StartPosition.transform.position + new Vector3(0.4f, deltaY, -0.1f);
+                            }
+                            else
+                            {
+                                transform.position = new Vector3(mousePositionInWorld.x, mousePositionInWorld.y, -0.1f);
+                            }
                         }
                     }
                     else

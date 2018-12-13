@@ -7,9 +7,11 @@ public class GameManager : MonoBehaviour
    public AudioSource audioSource;
    public AudioClip GameClear;
    public AudioClip GameFaild;
-    public GameObject BirdOne;
-    public GameObject BirdTwo;
-    public GameObject BirdThree;
+
+    public List<GameObject> BirdList;
+    //public GameObject BirdOne;
+    //public GameObject BirdTwo;
+    //public GameObject BirdThree;
     public GameObject EndUI;
     public GameObject Success;
     public GameObject Defeat;
@@ -26,9 +28,9 @@ public class GameManager : MonoBehaviour
     {
         states = 0;
         gameState = 1;
-        BirdOne.GetComponent<BirdMove>().state = states;//控制各个鸟的状态：是否到弓上
-        BirdTwo.GetComponent<BirdMove>().state =states+ 1;
-        BirdThree.GetComponent<BirdMove>().state =states+ 2;
+        BirdList[0] .GetComponent<BirdMove>().state = states;//控制各个鸟的状态：是否到弓上
+        BirdList[1].GetComponent<BirdMove>().state =states+ 1;
+        BirdList[2].GetComponent<BirdMove>().state =states+ 2;
         Time.timeScale = 1;//恢复因为上一场游戏结束而设置成的暂停
         BlueBird.isDivid = false;     //恢复上一场可能的蓝鸟的已经分身
     }
@@ -50,9 +52,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(BirdOne!=null)BirdOne.GetComponent<BirdMove>().state = states;
-        if (BirdTwo != null) BirdTwo.GetComponent<BirdMove>().state = states + 1;
-        if (BirdThree != null) BirdThree.GetComponent<BirdMove>().state = states + 2;//避免报错hhh
+        if(BirdList[0]!=null) BirdList[0].GetComponent<BirdMove>().state = states;
+        if (BirdList[1] != null) BirdList[1].GetComponent<BirdMove>().state = states + 1;
+        if (BirdList[2] != null) BirdList[2].GetComponent<BirdMove>().state = states + 2;//避免报错hhh
         if (hadOver == false && BirdAmount == 0&&PigAmount!=0)//失败判定
         {
             Invoke("GameFailed", 3);
@@ -68,9 +70,9 @@ public class GameManager : MonoBehaviour
            // Debug.Log(hadOver);
             if (timeAfterOver > 390&&hadOver==false&&PigAmount==0)//成功判定
             {
-                if (BirdOne != null) BirdOne.GetComponent<BirdMove>().isAliveScore = 1;
-                if (BirdTwo != null) if (timeAfterOver >400) { BirdTwo.GetComponent<BirdMove>().isAliveScore = 1; }
-                if (BirdThree != null) if(timeAfterOver>410){ BirdThree.GetComponent<BirdMove>().isAliveScore = 1; hadOver = true; }
+                if (BirdList[0] != null) BirdList[0].GetComponent<BirdMove>().isAliveScore = 1;
+                if (BirdList[1] != null) if (timeAfterOver >400) { BirdList[1].GetComponent<BirdMove>().isAliveScore = 1; }
+                if (BirdList[2] != null) if(timeAfterOver>410){ BirdList[2].GetComponent<BirdMove>().isAliveScore = 1; hadOver = true; }
                 //回去学一下动态数组
                 
                 Invoke("GameSuccess", 3);

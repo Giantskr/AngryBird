@@ -188,9 +188,10 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 fb54b37b8a6fa40bfd821dfb4afba71d Assembly-CSharp.dll:.Volume
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Pause
-eeba1524a4c88d8859418ce3853a86a3 Assembly-CSharp.dll:.GameManager
+8f45d233576f9d1e9922afbca3d85d52 Assembly-CSharp.dll:.GameManager
 f49fa88962cc22d08517d34f176454b3 Assembly-CSharp.dll:.LineInFoxerFront
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+14c0b3b1da8c2632c7b035231e14f793 Assembly-CSharp.dll:.CursorChange
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 cf28b1986fae0a479cb50d1381d1f0b7 Assembly-CSharp.dll:.BlueBird
 bbf9fda0baf7b4704b48f41d7a8be3c3 Assembly-CSharp.dll:.MidWood
@@ -199,4 +200,3 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d6f4567a75af0939acd14e35d9595e7b Assembly-CSharp.dll:.ChoseLevelStar
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.OnMouse
-14c0b3b1da8c2632c7b035231e14f793 Assembly-CSharp.dll:.CursorChange
